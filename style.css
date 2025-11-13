@@ -193,3 +193,25 @@ footer{
     background-color:#161a1d;
     padding: 20px;
 }
+.container5{
+    h2{
+        color: white;
+        text-align: center;
+        padding: 50px;
+        font-size: 35px;
+    }
+    div{
+        display: flex;
+        ul{
+            list-style: none;
+            display: flex;
+        }
+        p{
+            color: white;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
