@@ -207,10 +207,16 @@ footer{
         ul{
             list-style: none;
             display: flex;
+            margin-top: 10px;
+            justify-content: flex-start;
+            li{
+                margin: 20px;
+            }
         }
         p{
             color: white;
-            padding-right: 200px;
+            padding-right: 100px;
+            padding-left: 60px;
         }
         div{
             display: flex;
@@ -220,6 +226,10 @@ footer{
                 flex-direction: row;
             }
         }
+    }
+        img{
+        height: 50px;
+        width: 50px;
     }
 }
 .inputs{
