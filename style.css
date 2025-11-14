@@ -3,6 +3,8 @@
     font-family: "Inter", sans-serif;
 }
 nav{
+    position: sticky; top: 0;
+    backdrop-filter: blur(45px);
     display: flex;
     justify-content: space-between;
     padding: 25px;
@@ -19,7 +21,6 @@ nav{
     p{
         color: white;
     }
-  
 }
 header{
     background-color: #161a1d;
